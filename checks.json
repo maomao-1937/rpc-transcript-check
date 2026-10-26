@@ -1,0 +1,46 @@
+[
+  {
+    "args": [
+      "rpc_transcript_check.py",
+      "examples/clean.jsonl"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "rpc_transcript_check.py",
+      "examples/clean.jsonl",
+      "--format",
+      "text"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "rpc_transcript_check.py",
+      "examples/findings.jsonl"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "rpc_transcript_check.py",
+      "examples/invalid-message.jsonl"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "rpc_transcript_check.py",
+      "examples/invalid-capture.jsonl"
+    ],
+    "exit": 2
+  },
+  {
+    "args": [
+      "rpc_transcript_check.py",
+      "--help"
+    ],
+    "exit": 0
+  }
+]

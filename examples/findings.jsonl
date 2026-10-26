@@ -1,0 +1,5 @@
+{"direction":"client_to_server","message":{"jsonrpc":"2.0","method":"lookup","id":1}}
+{"direction":"client_to_server","message":{"jsonrpc":"2.0","method":"lookup","id":1}}
+{"direction":"server_to_client","message":{"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"Example error"}}}
+{"direction":"server_to_client","message":{"jsonrpc":"2.0","id":2,"result":null}}
+{"direction":"client_to_server","message":{"jsonrpc":"2.0","method":"unfinished","id":3}}

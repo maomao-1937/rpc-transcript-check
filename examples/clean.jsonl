@@ -1,0 +1,4 @@
+{"direction":"client_to_server","message":{"jsonrpc":"2.0","method":"lookup","id":1,"params":{"key":"demo"}}}
+{"direction":"client_to_server","message":{"jsonrpc":"2.0","method":"other","id":"1"}}
+{"direction":"server_to_client","message":{"jsonrpc":"2.0","id":"1","result":null}}
+{"direction":"server_to_client","message":{"jsonrpc":"2.0","id":1,"result":{"found":true}}}
